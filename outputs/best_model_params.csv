@@ -1,0 +1,5 @@
+Model,Best CV ROC-AUC,Best Parameters,Combinations Tested
+Logistic Regression,0.8463260276917037,"{'model__C': 10.0, 'model__class_weight': None, 'model__solver': 'liblinear'}",6
+Random Forest,0.8339157955265895,"{'model__class_weight': 'balanced', 'model__max_depth': 15, 'model__min_samples_split': 5, 'model__n_estimators': 200}",16
+Gradient Boosting,0.849904724991414,"{'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 200}",8
+XGBoost,0.8499808749589313,"{'model__learning_rate': 0.05, 'model__max_depth': 3, 'model__n_estimators': 100, 'model__subsample': 0.8}",16
